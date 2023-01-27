@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 a { /*set link styling */
     color: #14282F;
     font-size: 22px;
@@ -15,12 +19,12 @@ a:link {
   
   a:hover { /* links underline and change color when hovered over*/
     text-decoration: underline;
-    color: #7FAA76;
+    color: lightblue;
   }
   
   a:active {
     text-decoration: underline;
-    color: #7FAA76;
+    color: lightblue;
   }
 
   .navbar {
@@ -49,4 +53,8 @@ a:link {
     background-color:aliceblue;
     padding: 2vw;
     border-radius: 5px;
+}
+
+.mobile {
+    text-align: center
 }
