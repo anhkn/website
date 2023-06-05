@@ -12,6 +12,6 @@ $(document).ready(function(){
         }
     }
 
-    $("#subtitle").append("I'm Kien Nguyen, a second-year computer science student at Princeton University.");
+    $("#subtitle").append("I'm Kien Nguyen, a third-year computer science student at Princeton University.");
     $("#subtitle").hide().delay(2500).fadeIn(1000);
 });
